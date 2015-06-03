@@ -1,0 +1,4 @@
+http://stackoverflow.com/questions/20176877/weird-nullpointerexception-in-spinner
+
+inflater.inflate(android.R.layout.simple_spinner_item, null);//WRONG 
+inflater.inflate(android.R.layout.simple_spinner_item, parent, false);//GOOD
