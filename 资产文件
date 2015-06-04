@@ -1,3 +1,5 @@
+http://i.stack.imgur.com/h5BH7.png
+
 public class ViewWeb extends Activity {
     WebView webview;
     @Override
