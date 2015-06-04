@@ -1,3 +1,4 @@
+http://stackoverflow.com/questions/3779789/android-development-using-image-from-assets-in-a-webviews-html
 http://i.stack.imgur.com/h5BH7.png
 
 public class ViewWeb extends Activity {
@@ -8,6 +9,6 @@ public class ViewWeb extends Activity {
        setContentView(R.layout.webview);
 
        webview = (WebView) findViewById(R.id.webView1);
-       webview.loadUrl("file:///android_asset/index.html");
+       webview.loadUrl("file:///android_asset/html/index.html");
     }
 }
